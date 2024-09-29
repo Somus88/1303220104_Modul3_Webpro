@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP 3</title>
+
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            color: black;
+            padding: 0px 20px;
+            margin-bottom: 0;
+            text-align: left;
+        }
+        .content{
+            text-align: left;
+            display: flex;
+            gap: 10px;
+            padding: 0px 20px;
+            align-items: left;
+        }
+        .content .media{
+            text-align: center;
+        }
+        .content img{
+            width: 300px;
+            height: auto;
+        }
+        .content video{
+            width: 400px;
+            height: auto;
+            margin-top: 0;
+        }
+        .text{
+            padding: 0px 20px;
+            text-align: left;
+        }
+        .table-section{
+            margin-top: 0;
+        }
+        .table{
+            width: auto;
+            border-collapse: collapse;
+            
+        }
+        th, td{
+            border: 1px solid white;
+            padding-left: 18px;
+            text-align: left;
+        }
+        th{
+            background-color: white;
+        }
+        .kontak-saya{
+            margin-top: 20px;
+            padding-left: 20px;
+            
+        }
+        .kontak-saya textarea{
+            width: 100%;
+            height: 100px;
+            margin-bottom: 10px;
+        }
+        .footer{
+            margin-top: 40px;
+            text-align: left;
+            padding-left: 20px;
+            padding-bottom: 20px;
+        }
+        .footer a{
+            margin-top: 10px;
+            color: blue;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><b>Profil Pribadi</b></h1>
+    </header>
+    <div class="content">
+        <div class="media">
+            <h3>Foto Profil</h3>
+            <img src="https://via.placeholder.com/300" alt="Sample Image">
+            
+        </div>
+        <div class="media">
+            <h3>Video Profil</h3>
+            <video controls>
+                <source src="sample-video.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+    <div class="text">
+        <h2>Tentang saya</h2>
+        <p>Halo! Saya adalah seorang pengembang web antusias dengan passion di bidang teknologi dan desain kreatif</p>
+    </div>
+    <div class="text">
+        <h2>Keterampilan</h2>
+    </div>
+    <div class="table-section">
+        <table>
+            <tr>
+                <th><b>Keterampilan</b></th>
+                <th><b>Tingkat</b></th>
+            </tr>
+            <tr>
+                <td>HTML/CSS</td>
+                <td>Mahir</td>
+            </tr>
+            <tr>
+                <td>Javascript</td>
+                <td>Menengah</td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>Pemula</td>
+            </tr>
+        </table>
+    </div>
+    <div class="text">
+        <h2>Hubungi Saya</h2>
+    </div>
+    <div class="kontak-saya">
+        <form action="#" method="post">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" nama="nama"><br>
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" email="email"><br>
+
+            <label for="pesan">Pesan:</label><br>
+            <textarea id="pesan" id="pesan" rows="4" style="width: 300px;"></textarea><br>
+
+            <button type="submit">Kirim Pesan</button>
+        </form>
+    </div>
+    <div class="footer">
+        <h3>Media Sosial:</h3>
+        <a href="https://www.linkedin.com/in/wildan-zacky-ramandhito-717727258/" target="_blank">Linkedin</a> |
+        <a href="https://github.com/Somus88/" target="_blank">Github</a> |
+        <a href="www.twitter.com" target="_blank">Twitter</a>
+    </div>
+</body>
+</html>
